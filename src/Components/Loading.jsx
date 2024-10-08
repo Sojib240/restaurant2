@@ -1,14 +1,25 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 const Loading = () => {
     return (
         <>
-            <div className="w-full h-screen fixed top-0 left-0 bg-green-900 z-[99999] animate-pulse">
-                Loading
-            </div>
-            <div className="w-full h-screen fixed top-0 left-0 bg-orangeShade-300 z-[9999]">
-                Loading
-            </div>
+            <motion.div
+                initial={{ top: "0", visibility: "visiable" }}
+                animate={{ top: "-100%", visibility: "visiable" }}
+                transition={{ delay: 2, duration: 0.4, ease: "linear" }}
+                className="w-full h-screen fixed top-0 left-0 bg-greenShade-300 z-[9999] flex items-center justify-center"
+            >
+                <span className="text-[15vw] capitalize text-white font-Hidayatullah">
+                    lazeezarg
+                </span>
+            </motion.div>
+            <motion.div
+                initial={{ visibility: "visiable", opacity: 1 }}
+                animate={{ visibility: "hidden", opacity: 0 }}
+                transition={{ delay: 2.2, duration: 0.5, ease: "linear" }}
+                className="w-full h-screen fixed top-0 left-0 bg-white z-[999] flex items-center justify-center"
+            ></motion.div>
         </>
     );
 };

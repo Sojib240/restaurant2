@@ -12,7 +12,7 @@ const App = () => {
             <Navbar />
             <HomePage />
             <Footer />
-            {/* <Loading /> */}
+            <Loading />
         </div>
     );
 };
