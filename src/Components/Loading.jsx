@@ -7,7 +7,7 @@ const Loading = () => {
             <motion.div
                 initial={{ top: "0", visibility: "visiable" }}
                 animate={{ top: "-100%", visibility: "visiable" }}
-                transition={{ delay: 2, duration: 0.4, ease: "linear" }}
+                transition={{ delay: 3, duration: 0.4, ease: "linear" }}
                 className="w-full h-screen fixed top-0 left-0 bg-greenShade-300 z-[9999] flex items-center justify-center"
             >
                 <span className="text-[15vw] capitalize text-white font-Hidayatullah">
