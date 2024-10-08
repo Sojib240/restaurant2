@@ -16,7 +16,7 @@ const NumberOfItems = () => {
                     </h2>
                     <p className="font-JosefinSans_Regular text-lg leading-5 text-center">
                         We lead the group by consistently emphasizing delicious,
-                        high-quality food that provides a warm and welcoming
+                        high-quality food lorand that provides a warm and welcoming
                         environment.
                     </p>
                 </div>
