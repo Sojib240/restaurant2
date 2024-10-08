@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import { RiMenu4Fill } from "react-icons/ri";
 import { MdClose } from "react-icons/md";
-import { HashLink as Link } from "react-router-hash-link";
+import { Link } from "react-router-dom";
+// import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
     const [navPosition, setnavPosition] = useState(false);

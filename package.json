@@ -13,9 +13,9 @@
     "lightbox.js-react": "^1.1.5",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-hash-link": "^1.0.2",
     "react-icons": "^5.3.0",
     "react-router-dom": "^6.26.2",
-    "react-router-hash-link": "^2.4.3",
     "swiper": "^11.1.14"
   },
   "devDependencies": {
