@@ -25,7 +25,7 @@ const WhyUs = () => {
                                 item.id == 0 && "border-l-[1px]"
                             }`}
                         >
-                            <span className="text-6xl text-orangeShade-300 duration-150 transition-all hover:text-greenShade-300 cursor-pointer">
+                            <span className="text-6xl text-orangeShade-300 duration-150 transition-all hover:text-greenShade-300">
                                 {item.image}
                             </span>
                             <h2 className="text-[17px] font-JosefinSans_semibold text-center sm:text-[25px]">
