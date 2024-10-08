@@ -9,6 +9,7 @@ import ContactUs from "../Components/ContactUs";
 import SignatureDishes from "../Components/SignatureDishes";
 import Reviews from "../Components/Reviews";
 import PopUp from "../Components/PopUp";
+import NumberOfItems from "../Components/NumberOfItems";
 
 const HomePage = () => {
     const [popup, setpopup] = useState(false);
@@ -19,6 +20,7 @@ const HomePage = () => {
             <Facilities setpopup={setpopup} />
             <About />
             <SignatureDishes />
+            <NumberOfItems />
             <Reviews />
             <WhyUs />
             <VideoGallery />
