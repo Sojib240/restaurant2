@@ -101,7 +101,7 @@ span.swiper-pagination-bullet {
 }
 
 .heroBg {
-    background: url('heroImg.png');
+    background: url('/heroImg.png');
     background-position: center right;
     background-size: contain;
     background-repeat: no-repeat;
