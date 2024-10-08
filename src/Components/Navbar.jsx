@@ -1,8 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { RiMenu4Fill } from "react-icons/ri";
 import { MdClose } from "react-icons/md";
-import { Link } from "react-router-dom";
-// import { HashLink as Link } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Navbar = () => {
     const [navPosition, setnavPosition] = useState(false);
@@ -60,13 +59,13 @@ const Navbar = () => {
                             )}
                             <div className="main-nav-menu flex items-center gap-5 pt-3">
                                 <Link
-                                    // to="#home"
+                                    to="#home"
                                     className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
                                 >
                                     Home
                                 </Link>
                                 <Link
-                                    // to="#about"
+                                    to="#about"
                                     className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
                                 >
                                     About
@@ -78,7 +77,7 @@ const Navbar = () => {
                                     Menu
                                 </a>
                                 <Link
-                                    // to="#signature_dishes"
+                                    to="#signature_dishes"
                                     className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
                                 >
                                     Must Try
@@ -91,7 +90,7 @@ const Navbar = () => {
                                 </a>
 
                                 <Link
-                                    // to="#contact"
+                                    to="#contact"
                                     className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
                                 >
                                     Contact
@@ -140,13 +139,13 @@ const Navbar = () => {
                             )}
                             <div className="main-nav-menu flex items-center gap-5 pt-3">
                                 <Link
-                                    // to="#home"
+                                    to="#home"
                                     className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                                 >
                                     Home
                                 </Link>
                                 <Link
-                                    // to="#about"
+                                    to="#about"
                                     className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                                 >
                                     About
@@ -158,7 +157,7 @@ const Navbar = () => {
                                     Menu
                                 </a>
                                 <Link
-                                    // to="#signature_dishes"
+                                    to="#signature_dishes"
                                     className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                                 >
                                     Must Try
@@ -171,7 +170,7 @@ const Navbar = () => {
                                 </a>
 
                                 <Link
-                                    // to="#contact"
+                                    to="#contact"
                                     className="link2 relative font-JosefinSans_semibold capitalize text-black text-lg"
                                 >
                                     Contact
@@ -193,7 +192,7 @@ const Navbar = () => {
                 >
                     <div className="fixed-menu flex flex-col bg-white rounded-3xl border-2 overflow-hidden">
                         <Link
-                            // to="#home"
+                            to="#home"
                             className="link relative font-JosefinSans_semibold capitalize text-greenShade-300 text-lg py-3 border-b-[1px] px-5 hover:bg-orangeShade-300"
                         >
                             Home
@@ -212,7 +211,7 @@ const Navbar = () => {
                             Menu
                         </a>
                         <Link
-                            // to="#signature_dishes"
+                            to="#signature_dishes"
                             className="link relative font-JosefinSans_semibold capitalize text-greenShade-300 text-lg py-3 border-b-[1px] px-5 hover:bg-orangeShade-300"
                             href=""
                         >
@@ -226,7 +225,7 @@ const Navbar = () => {
                         </a>
 
                         <Link
-                            // to="#contact"
+                            to="#contact"
                             className="link relative font-JosefinSans_semibold capitalize text-greenShade-300 text-lg py-3 border-none px-5 hover:bg-orangeShade-300"
                         >
                             Contact

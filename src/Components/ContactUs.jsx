@@ -27,10 +27,7 @@ const ContactUs = () => {
         },
     ];
     return (
-        <div
-            //  id="contact"
-            className="w-full pt-20 pb-20 sm:pb-28 px-5"
-        >
+        <div id="contact" className="w-full pt-20 pb-20 sm:pb-28 px-5">
             <div className="max-w-[1300px] mx-auto">
                 <h2 className="text-[32px] font-Hidayatullah text-center pb-14 capitalize">
                     Contact us

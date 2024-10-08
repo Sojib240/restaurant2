@@ -87,7 +87,7 @@ const SignatureDishes = () => {
     ];
     return (
         <div
-            // id="signature_dishes"
+            id="signature_dishes"
             className="w-full px-5 py-20 min-h-screen"
         >
             <div className="h-full max-w-[1300px] mx-auto">
@@ -108,7 +108,7 @@ const SignatureDishes = () => {
                                 return (
                                     <img
                                         key={item.id}
-                                        className={`${item.styles} h-52 w-full md:h-64 lg:h-80 rounded-3xl overflow-hidden group object-cover`}
+                                        className={`${item.styles} h-52 w-full md:h-64 lg:h-80 rounded-3xl overflow-hidden group object-cover border `}
                                         src={item.image}
                                         alt="lorem10"
                                     />

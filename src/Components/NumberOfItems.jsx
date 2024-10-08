@@ -8,7 +8,7 @@ const NumberOfItems = () => {
         { title: `${999}+`, desc: "Happy Customers" },
     ];
     return (
-        <div className="w-full pt-32 pb-20 px-5">
+        <div className="w-full pt-20 pb-20 px-5">
             <div className="max-w-[500px] md:max-w-[700px] lg:max-w-[900px] mx-auto">
                 <div className="w-full max-w-[600px] mx-auto">
                     <h2 className="text-[35px] font-Hidayatullah text-center pb-6 capitalize">

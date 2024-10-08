@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
     return (
         <div
-            // id="about"
+            id="about"
             className="background bg-contain bg-repeat bg-center w-full pt-20 pb-16 sm:py-32 px-5 flex items-center bg-greenShade-300 relative overflow-hidden"
         >
             <div className="bg w-[101%] absolute -top-[1px] -right-[2px] rotate-180 z-40">

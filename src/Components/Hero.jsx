@@ -3,7 +3,7 @@ import React from "react";
 const Hero = ({ setpopup }) => {
     return (
         <div
-            // id="home"
+            id="home"
             className="heroBg hero w-full px-5 bg-greenShade-300 relative z-50 overflow-hidden"
         >
             {/* <div className="w-[50%] absolute right-0 bottom-0 h-auto">
