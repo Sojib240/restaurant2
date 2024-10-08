@@ -17,7 +17,7 @@ const Loading = () => {
             <motion.div
                 initial={{ visibility: "visiable", opacity: 1 }}
                 animate={{ visibility: "hidden", opacity: 0 }}
-                transition={{ delay: 2.2, duration: 0.5, ease: "linear" }}
+                transition={{ delay: 3.2, duration: 0.5, ease: "linear" }}
                 className="w-full h-screen fixed top-0 left-0 bg-white z-[999] flex items-center justify-center"
             ></motion.div>
         </>
