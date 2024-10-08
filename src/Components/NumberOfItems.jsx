@@ -5,7 +5,7 @@ const NumberOfItems = () => {
         { title: "96", desc: "Dishes Available" },
         { title: "26", desc: "Dessert & Drinks" },
         { title: "2", desc: "Locations" },
-        { title: "999 +", desc: "Happy Customers" },
+        { title: `${999}+`, desc: "Happy Customers" },
     ];
     return (
         <div className="w-full pt-32 pb-20">
@@ -24,8 +24,8 @@ const NumberOfItems = () => {
                     <div className="flex gap-5 mt-10">
                         {itemData.map((item) => {
                             return (
-                                <div className="card w-1/4 bg-greenShade-300 p-3 rounded-3xl">
-                                    <h2 className="font-JosefinSans_bold text-[60px] text-center text-white">
+                                <div className="card w-1/4 bg-greenShade-300 py-5 px-3 rounded-3xl">
+                                    <h2 className="font-JosefinSans_bold text-[60px] text-center text-white leading-[100%]">
                                         {item.title}
                                     </h2>
                                     <p className="font-JosefinSans_Regular text-lg text-center text-white">

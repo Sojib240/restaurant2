@@ -85,7 +85,7 @@ const Reviews = () => {
                             clickable: true,
                         }}
                         modules={[Autoplay, Pagination]}
-                        className="mySwiper pb-[7%] pt-[7%]"
+                        className="mySwiper pb-[8%] pt-[7%]"
                     >
                         {reviewsData.map((item) => {
                             return (
