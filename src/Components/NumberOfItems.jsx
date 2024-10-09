@@ -20,7 +20,7 @@ const NumberOfItems = () => {
                         environment.
                     </p>
                 </div>
-                <div className="grid grid-cols-4 w-full mt-10 gap-2">
+                <div className="grid grid-cols-4 w-full mt-16 gap-2">
                     {itemData.map((item) => {
                         return (
                             <div className="card col-span-2 lg:col-span-1 bg-greenShade-300 py-8 px-3 rounded-3xl">

@@ -85,9 +85,31 @@ span.swiper-pagination-bullet {
 }
 
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .main-nav-menu {
         display: none;
+    }
+}
+
+@media (max-width:1400px) {
+    .hero-max {
+        padding-bottom: 112px !important;
+    }
+
+    .hero-text {
+        font-size: 40px !important;
+        line-height: 65px !important;
+        max-width: 600px !important;
+        padding-bottom: 13px !important;
+    }
+
+    .hero .btn {
+        padding: 8px 32px !important;
+        font-size: 18px !important;
+    }
+
+    .lamp {
+        width: 80px !important;
     }
 }
 
@@ -100,7 +122,7 @@ span.swiper-pagination-bullet {
     color: #ffffff;
 }
 
-.heroBg {
+/* .heroBg {
     background: url('/heroImg.png');
     background-position: center right;
     background-size: contain;
@@ -108,4 +130,4 @@ span.swiper-pagination-bullet {
     width: 100%;
     height: 100%;
     background-color: #134E13;
-}
+} */

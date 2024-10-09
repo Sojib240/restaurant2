@@ -28,16 +28,25 @@ const About = () => {
                     <h2 className="text-white text-[45px] font-Hidayatullah pb-6 text-center">
                         About us
                     </h2>
-                    <p className="text-white text-lg sm:text-[25px] font-JosefinSans_Regular text-center">
-                        We, Arab Nation, situated at Malad West, Mumbai,
-                        Maharashtra are one of the leading Arabic restaurants
-                        and we constantly strive to serve the most authentic
-                        Arabic food to our patrons. Our skilled chefs, well
-                        mannered staff and amazing ambience has made our
-                        restaurant a customer favourite destination. We also
-                        take orders for parties and various other events and
-                        serve freshly prepare, lip smacking and delicious food
-                        for the same.
+                    <p className="text-white text-base sm:text-lg font-JosefinSans_Regular text-left">
+                        Lazeez Arabic Restaurant and Grill is a premium Middle
+                        Eastern dining destination located in the heart of Bukit
+                        Bintang, Kuala Lumpur.
+                    </p>
+                    <p className="text-white text-base sm:text-lg font-JosefinSans_Regular text-left pt-2">
+                        We offer an authentic array of Arabic cuisine, with a
+                        menu that features traditional dishes, from succulent
+                        grilled kebabs to flavorful shawarma and fragrant
+                        biryanis. Whether you’re in the mood for a casual lunch,
+                        a festive dinner, or a special gathering with friends
+                        and family, Lazeez provides a warm and inviting
+                        atmosphere that brings the rich culinary traditions of
+                        the Middle East to Malaysia.
+                    </p>
+                    <p className="text-white text-base sm:text-lg font-JosefinSans_Regular text-left pt-2">
+                        Join us for a memorable dining experience and savor the
+                        true essence of Arabic flavors right here
+                        in Kuala Lumpur!!
                     </p>
                 </div>
                 <div className="w-full lg:w-1/2 flex justify-center relative">
