@@ -23,15 +23,15 @@
 }
 
 @font-face {
-    font-family: 'Love_Craft_Italic';
-    src: url('../src/Fonts/Love-Craft-Italic.woff2') format('woff2'),
-}
-
-@font-face {
     font-family: 'Love_Craft';
     src: url('../src/Fonts/Love-Craft.woff2') format('woff2'),
 }
-
+html {
+    scroll-behavior: smooth;
+}
+:root {
+    --swiper-navigation-size: 20px;
+}
 .bg1 {
     transform: rotateY(180deg);
 }
@@ -43,10 +43,6 @@ textarea {
 .fixed-navbar,
 .fixed-menu {
     box-shadow: 0 2px 10px 0 rgba(31, 38, 135, 0.2);
-}
-
-:root {
-    --swiper-navigation-size: 20px;
 }
 
 .swiper-button-next,
@@ -100,28 +96,6 @@ span.swiper-pagination-bullet {
         display: none;
     }
 }
-
-/* @media (max-width:1400px) {
-    .hero-max {
-        padding-bottom: 112px !important;
-    }
-
-    .hero-text {
-        font-size: 40px !important;
-        line-height: 65px !important;
-        max-width: 600px !important;
-        padding-bottom: 13px !important;
-    }
-
-    .hero .btn {
-        padding: 8px 32px !important;
-        font-size: 18px !important;
-    }
-
-    .lamp {
-        width: 80px !important;
-    }
-} */
 
 .popup1 {
     background: rgba(0, 0, 0, 0.8);
