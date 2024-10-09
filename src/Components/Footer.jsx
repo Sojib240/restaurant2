@@ -1,11 +1,11 @@
 import React from "react";
 
-import { FaSquareFacebook } from "react-icons/fa6";
-import { IoLogoLinkedin } from "react-icons/io5";
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaFacebookF } from "react-icons/fa6";
+import { FaSnapchatGhost } from "react-icons/fa";
+import { FiInstagram } from "react-icons/fi";
+import { FaTiktok } from "react-icons/fa6";
 
-const Footer = () => {
+const Footer = ({ setpopup }) => {
     return (
         <div className="w-full bg-greenShade-300 px-6 pt-32 pb-8 relative overflow-hidden">
             <div className="bg w-[101%] absolute -top-[1px] -right-[2px] rotate-180 z-40">
@@ -18,35 +18,47 @@ const Footer = () => {
                             <h2 className="text-xl font-JosefinSans_bold font-bold text-white uppercase">
                                 USEFUL LINKS
                             </h2>
-                            <div className="">
-                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
-                                    privacy polict
-                                </p>
-                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                            <div className="flex flex-col">
+                                <p
+                                    onClick={() => setpopup(true)}
+                                    className="text-white font-JosefinSans_Regular text-[17px] cursor-pointer capitalize"
+                                >
                                     order online
                                 </p>
-                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                                <a
+                                    href="#serve"
+                                    className="text-white font-JosefinSans_Regular text-[17px] capitalize"
+                                >
                                     we serve
-                                </p>
-                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                                </a>
+                                <a
+                                    href="#about"
+                                    className="text-white font-JosefinSans_Regular text-[17px] capitalize"
+                                >
                                     about us
-                                </p>
+                                </a>
                             </div>
                         </div>
                         <div className="flex flex-col gap-2">
                             <h2 className="text-xl font-JosefinSans_bold font-bold text-white uppercase">
                                 HOME
                             </h2>
-                            <div className="">
+                            <div className="flex flex-col">
                                 <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
                                     book a table
                                 </p>
-                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                                <a
+                                    href="#facilities"
+                                    className="text-white font-JosefinSans_Regular text-[17px] capitalize"
+                                >
                                     facilities
-                                </p>
-                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
-                                    why us{" "}
-                                </p>
+                                </a>
+                                <a
+                                    href="#why_us"
+                                    className="text-white font-JosefinSans_Regular text-[17px] capitalize"
+                                >
+                                    why us
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -56,18 +68,16 @@ const Footer = () => {
                                 CONTACT
                             </h2>
                             <div className="">
-                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
-                                    Palm Court Bldg M, 5011B, 5th Floor, New
-                                    <br />
-                                    Link Road, Beside Goregaon Sports <br />
-                                    Complex Malad West, Mumbai. <br /> 400064,
-                                    Maharashtra
+                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize w-full max-w-[350px] 2xl:max-w-[350px]">
+                                    148, Jln Bukit Bintang, Wilayah Persekutuan,
+                                    55100 Kuala Lumpur, Wilayah Persekutuan
+                                    Kuala Lumpur
                                 </p>
                                 <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
-                                    +91-8888888888
+                                    +011-1119 2301
                                 </p>
                                 <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
-                                    websupport@justdial.com
+                                    lazeez.restoran@gmail.com
                                 </p>
                             </div>
                         </div>
@@ -76,25 +86,37 @@ const Footer = () => {
                                 CONNECT
                             </h2>
                             <div className="flex gap-3">
-                                <span className="text-white text-2xl">
-                                    <FaSquareFacebook />
-                                </span>
-                                <span className="text-white text-2xl">
-                                    <IoLogoLinkedin />
-                                </span>
-                                <span className="text-white text-2xl">
-                                    <FaInstagramSquare />
-                                </span>
-                                <span className="text-white text-2xl">
-                                    <FaSquareXTwitter />
-                                </span>
+                                <a
+                                    href="https://www.facebook.com/lazeezarg"
+                                    target="blank"
+                                    className="text-white text-xl"
+                                >
+                                    <FaFacebookF />
+                                </a>
+                                <a
+                                    href="https://www.tiktok.com/@lazeezarg"
+                                    className="text-white text-xl"
+                                    target="blank"
+                                >
+                                    <FaTiktok />
+                                </a>
+                                <a
+                                    href="https://www.instagram.com/lazeezarg/?hl=en"
+                                    className="text-white text-xl"
+                                    target="blank"
+                                >
+                                    <FiInstagram />
+                                </a>
+                                <a href="#" className="text-white text-xl">
+                                    <FaSnapchatGhost />
+                                </a>
                             </div>
                         </div>
                     </div>
                     <div className=""></div>
                 </div>
                 <h2 className="font-JosefinSans_Regular text-zinc-200 text-base text-center pt-10 lg:text-lg lg:pt-20 lg:text-left">
-                    @ Copyrights 2020 - 2021 Arab Nation. All Rights Reserved.
+                    @ Copyrights 2024. All Rights Reserved.
                 </h2>
             </div>
         </div>

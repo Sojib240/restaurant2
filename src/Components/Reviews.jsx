@@ -46,46 +46,71 @@ const Reviews = () => {
         },
     ];
     return (
-        <div className="w-full pt-[8%] pb-[10%] sm:pb-[8%] md:pt-[8%] md:pb-[8%] lg:pt-[6%] lg:pb-[6%] px-5 testimonial bg-greenShade-300 relative overflow-hidden">
+        <div className="w-full pt-[6%] pb-[10%] sm:pb-[8%] md:pt-[10%] md:pb-[8%] lg:pt-[4%] lg:pb-[4%] px-5 testimonial bg-greenShade-300 relative overflow-hidden">
             <div className="bg w-[101%] absolute -bottom-[2px] -left-[2px] rotate-180 z-40">
                 <img className="w-full" src="/wave2.svg" alt="" />
             </div>
             <div className="bg w-[101%] absolute -top-[1px]  -right-[2px] z-40">
                 <img className="w-full" src="/wave2.svg" alt="" />
             </div>
-            <div className="max-w-[1800px] mx-auto flex items-center flex-wrap-reverse sm:flex-nowrap gap-5">
-                <div className="w-full sm:w-[40%] md:w-[30%]">
-                    <img className="w-full" src="/item2.webp" alt="" />
+            <div className="max-w-[1300px] mx-auto flex items-center justify-center flex-wrap-reverse md:flex-nowrap gap-5 md:gap-20 py-10">
+                <div className="w-full md:w-1/2">
+                    <img
+                        className="max-w-[1/2] mx-auto"
+                        src="/review.png"
+                        alt=""
+                    />
                 </div>
-                <div className="slider w-full sm:w-[60%] md:w-[70%]">
+                <div className="slider w-full md:w-1/2">
+                    <div className="max-w-[500px] md:max-w-[800px] w-full mx-auto bg-orangeShade-300 rounded-full flex justify-between items-center py-2 px-[5%] mt-[4%] mb-[1%] md:mb-[4%] lg:mb-0">
+                        <a
+                            className=" text-white text-xs lg:text-base rounded-full font-JosefinSans_Regular"
+                            href=""
+                        >
+                            Write a Review
+                        </a>
+                        <div className="flex flex-col gap-1 sm:gap-0">
+                            <p className="text-white text-xs lg:text-base font-JosefinSans_Regular leading-none">
+                                Google Ratings
+                            </p>
+                            <div className="flex items-center">
+                                <p className="text-white pr-3 text-xs lg:text-base font-JosefinSans_Regular leading-none">
+                                    4.5
+                                </p>
+                                <div className="flex">
+                                    <span className="text-white text-xs lg:text-base">
+                                        <IoStar />
+                                    </span>
+                                    <span className="text-white text-xs lg:text-base">
+                                        <IoStar />
+                                    </span>
+                                    <span className="text-white text-xs lg:text-base">
+                                        <IoStar />
+                                    </span>
+                                    <span className="text-white text-xs lg:text-base">
+                                        <IoStar />
+                                    </span>
+                                    <span className="text-white text-xs lg:text-base">
+                                        <IoStarHalf />
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <Swiper
                         loop
-                        slidesPerView={3}
+                        slidesPerView={1}
                         spaceBetween={30}
                         autoplay={{
                             delay: 4000,
                             disableOnInteraction: false,
-                        }}
-                        breakpoints={{
-                            280: {
-                                slidesPerView: 1,
-                                spaceBetween: 20,
-                            },
-                            768: {
-                                slidesPerView: 2,
-                                spaceBetween: 20,
-                            },
-                            1200: {
-                                slidesPerView: 3,
-                                spaceBetween: 30,
-                            },
                         }}
                         navigation={false}
                         pagination={{
                             clickable: true,
                         }}
                         modules={[Autoplay, Pagination]}
-                        className="mySwiper pb-[8%] pt-[7%]"
+                        className="mySwiper pb-[8%] pt-[7%] max-w-[500px] md:max-w-[100%]"
                     >
                         {reviewsData.map((item) => {
                             return (
@@ -93,7 +118,7 @@ const Reviews = () => {
                                     key={item.id}
                                     className=" cursor-move flex justify-center items-center"
                                 >
-                                    <div className="flex flex-col justify-center items-start text-left gap-3 max-w-[520px] w-full">
+                                    <div className="flex flex-col justify-center items-center text-center gap-3 w-full">
                                         <div className="flex items-center gap-4">
                                             <div className="w-12 h-12">
                                                 <img

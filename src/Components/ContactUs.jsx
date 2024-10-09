@@ -10,24 +10,26 @@ const ContactUs = () => {
             id: 1,
             logo: <TiLocation />,
             title: "our Office address",
-            desc: "Palm Court Bldg M, 5011B, 5th Floor, New Link Road,Beside Goregaon Sports Complex, Malad West, Mumbai, Maharashtra 400064",
+            desc: "Address: 148, Jln Bukit Bintang, Wilayah Persekutuan,",
+            desc2: "55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
         },
         {
             id: 2,
             logo: <IoIosMail />,
             title: "General Enquiries",
-            desc: "websupport@justdial.com",
+            desc: "lazeez.restoran@gmail.com",
         },
-        { id: 3, logo: <IoCall />, title: "Call Us", desc: "+91-8888888888" },
+        { id: 3, logo: <IoCall />, title: "Call Us", desc: "+011-1119 2301" },
         {
             id: 4,
             logo: <MdTimer />,
             title: "Our Timing",
-            desc: "Mon - sun : 10:00 AM - 07:00 PM",
+            desc: "sun - thu : 11:00 AM - 02:00 PM",
+            desc2: "fri - sat : 11:00 AM - 03:00 PM",
         },
     ];
     return (
-        <div id="contact" className="w-full pt-20 pb-20 sm:pb-28 px-5">
+        <div id="contact" className="w-full pt-10 pb-20 sm:pb-28 px-5">
             <div className="max-w-[1300px] mx-auto">
                 <h2 className="text-[32px] font-Hidayatullah text-center pb-14 capitalize">
                     Contact us
@@ -86,8 +88,10 @@ const ContactUs = () => {
                                         <h2 className="font-JosefinSans_bold text-[20px] uppercase pb-2 leading-none">
                                             {item.title}
                                         </h2>
-                                        <p className=" font-JosefinSans_Regular text-[18px] capitalize leading-5 w-full sm:w-1/2 lg:w-full">
+                                        <p className=" font-JosefinSans_Regular text-[18px] capitalize leading-5 w-full">
                                             {item.desc}
+                                            <br />
+                                            {item.desc2}
                                         </p>
                                     </div>
                                 </div>

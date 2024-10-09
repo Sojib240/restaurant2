@@ -88,7 +88,7 @@ const SignatureDishes = () => {
     return (
         <div
             id="signature_dishes"
-            className="w-full px-5 py-20 min-h-screen"
+            className="w-full px-5 py-10 min-h-screen"
         >
             <div className="h-full max-w-[1300px] mx-auto">
                 <h2 className="text-[35px] font-Hidayatullah text-center pb-14 capitalize">

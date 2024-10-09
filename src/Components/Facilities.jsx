@@ -18,7 +18,7 @@ const Facilities = ({ setpopup }) => {
         }
     };
     return (
-        <div className=" Facilities py-10 sm:py-28 px-5 w-full relative">
+        <div id="facilities" className=" Facilities py-10 sm:py-28 px-5 w-full relative">
             <div className="w-full">
                 <h2 className="text-[35px] font-Hidayatullah text-center pb-14 capitalize">
                     Facilities

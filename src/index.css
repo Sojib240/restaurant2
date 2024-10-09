@@ -22,6 +22,16 @@
     src: url('../src/Fonts/JosefinSans-Bold.woff2') format('woff2'),
 }
 
+@font-face {
+    font-family: 'Love_Craft_Italic';
+    src: url('../src/Fonts/Love-Craft-Italic.woff2') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Love_Craft';
+    src: url('../src/Fonts/Love-Craft.woff2') format('woff2'),
+}
+
 .bg1 {
     transform: rotateY(180deg);
 }
@@ -91,7 +101,7 @@ span.swiper-pagination-bullet {
     }
 }
 
-@media (max-width:1400px) {
+/* @media (max-width:1400px) {
     .hero-max {
         padding-bottom: 112px !important;
     }
@@ -111,7 +121,7 @@ span.swiper-pagination-bullet {
     .lamp {
         width: 80px !important;
     }
-}
+} */
 
 .popup1 {
     background: rgba(0, 0, 0, 0.8);
@@ -131,3 +141,22 @@ span.swiper-pagination-bullet {
     height: 100%;
     background-color: #134E13;
 } */
+
+.load {
+    animation: loader 2s 0.2s 2 backwards;
+    animation: name duration timing-function delay iteration-count direction fill-mode;
+}
+
+@keyframes loader {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.6;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

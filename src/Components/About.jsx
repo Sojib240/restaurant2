@@ -28,12 +28,12 @@ const About = () => {
                     <h2 className="text-white text-[45px] font-Hidayatullah pb-6 text-center">
                         About us
                     </h2>
-                    <p className="text-white text-base sm:text-lg font-JosefinSans_Regular text-left">
+                    <p className="text-white text-base sm:text-lg font-JosefinSans_Regular text-center">
                         Lazeez Arabic Restaurant and Grill is a premium Middle
                         Eastern dining destination located in the heart of Bukit
                         Bintang, Kuala Lumpur.
                     </p>
-                    <p className="text-white text-base sm:text-lg font-JosefinSans_Regular text-left pt-2">
+                    <p className="text-white text-base sm:text-lg font-JosefinSans_Regular text-center pt-2">
                         We offer an authentic array of Arabic cuisine, with a
                         menu that features traditional dishes, from succulent
                         grilled kebabs to flavorful shawarma and fragrant
@@ -43,16 +43,18 @@ const About = () => {
                         atmosphere that brings the rich culinary traditions of
                         the Middle East to Malaysia.
                     </p>
-                    <p className="text-white text-base sm:text-lg font-JosefinSans_Regular text-left pt-2">
+                    <p className="text-white text-base sm:text-lg font-JosefinSans_Regular text-center pt-2">
                         Join us for a memorable dining experience and savor the
                         true essence of Arabic flavors right here
                         in Kuala Lumpur!!
                     </p>
                 </div>
-                <div className="w-full lg:w-1/2 flex justify-center relative">
-                    <div className="w-full sm:w-[70%] lg:w-2/3">
-                        <img className="w-full" src="/item2.webp" alt="" />
-                    </div>
+                <div className="w-full lg:w-1/2">
+                    <img
+                        className="max-w-[1/2] mx-auto"
+                        src="/about.png"
+                        alt=""
+                    />
                 </div>
             </div>
         </div>

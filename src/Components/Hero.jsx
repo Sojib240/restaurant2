@@ -4,23 +4,20 @@ const Hero = ({ setpopup }) => {
     return (
         <div
             id="home"
-            className="heroBg hero hero w-full px-5 bg-greenShade-300 relative z-50 overflow-hidden"
+            className="heroBg hero hero w-full px-5 bg-greenShade-300 relative z-50 overflow-hidden h-full"
         >
-            {/* <div className="w-[50%] absolute right-0 bottom-0 h-auto">
-                <img className="w-full" src="/Group 1.svg" alt="" />
-            </div> */}
-
-            <div className="bg w-[101%] absolute -bottom-[1px] left-0 rotate-180">
+            <div className="bg w-[101%] absolute -bottom-[1px] left-0 rotate-180 z-50">
                 <img className="w-full" src="/wave2.svg" alt="" />
             </div>
-            <div className="hero-max max-w-[1800px] pt-[280px] md:pt-[360px] pb-16 md:pb-28 lg:pb-36 mx-auto relative">
-                <div className="lamp w-[55px] sm:w-[70px] md:w-[80px] lg:w-[108px] absolute top-0 left-0 z-50 h-auto">
+            {/* pt-[280px] md:pt-[360px] pb-16 md:pb-28 lg:pb-36 */}
+            <div className="hero-max max-w-[1800px] min-h-[100vh] 2xl:min-h-[100vh] w-full h-full mx-auto relative flex justify-center md:justify-start items-end">
+                <div className="lamp w-[55px] sm:w-[70px] md:w-[80px] lg:w-[108px] absolute top-0 left-0 h-auto z-10">
                     <img className="w-full" src="/lamp.png" alt="" />
                 </div>
-                <div className="flex">
+                <div className="flex pb-[20%] md:pb-[12%] lg:pb-[8%] z-40">
                     <div className=" text-left w-full flex flex-col justify-start items-left gap-3 md:gap-6 relative">
                         <div className="flex flex-col items-center md:items-start gap-4">
-                            <h2 className="hero-text max-w-[500px] sm:max-w-[500px] md:max-w-[600px] lg:max-w-[700px] text-[30px] leading-[40px] md:leading-[65px] lg:leading-[80px] font-Hidayatullah text-white md:text-[40px] lg:text-[50px] text-center md:text-left pb-4 sm:pb-4 lg:pb-5">
+                            <h2 className="hero-text font-Love_Craft text-white max-w-[100%] sm:max-w-[500px] md:max-w-[650px] lg:max-w-[700px] xl:max-w-[800px] 2xl:max-w-[900px] text-[28px] md:text-[33px] lg:text-[38px] xl:text-[43px] 2xl:text-[48px] leading-[40px] md:leading-[50px] lg:leading-[60px] xl:leading-[68px] 2xl:leading-[75px] text-center md:text-left pb-3 md:pb-0">
                                 Indulge in the Authenticity of Arabic Cuisines,
                                 where 'Lazeez' is your culinary Expression!
                             </h2>

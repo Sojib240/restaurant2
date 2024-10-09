@@ -14,7 +14,7 @@ const VideoGallery = () => {
     const videoGalleryData = [
         {
             id: 1,
-            video: "https://www.youtube-nocookie.com/embed/W_vTE--1Ec0?si=jSPxZO_KjTmp7Txy&amp;start=1",
+            video: "https://www.tiktok.com/@zackzainefer/video/7344343247210302738",
         },
         {
             id: 2,

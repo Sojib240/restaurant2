@@ -20,6 +20,8 @@ export default {
                 JosefinSans_Regular: ["JosefinSans_Regular", "sans-serif"],
                 JosefinSans_semibold: ["JosefinSans_semibold", "sans-serif"],
                 JosefinSans_bold: ["JosefinSans_bold", "sans-serif"],
+                Love_Craft_Italic: ["Love_Craft_Italic", "sans-serif"],
+                Love_Craft: ["Love_Craft", "sans-serif"],
             },
         },
     },
