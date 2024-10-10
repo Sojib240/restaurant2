@@ -10,7 +10,7 @@ const Hero = ({ setpopup }) => {
                 <img className="w-full" src="/wave2.svg" alt="" />
             </div>
             {/* pt-[280px] md:pt-[360px] pb-16 md:pb-28 lg:pb-36 */}
-            <div className="hero-max max-w-[1800px] min-h-[100svh] 2xl:min-h-[100vh] w-full h-full mx-auto relative flex justify-center md:justify-start items-end">
+            <div className="hero-max max-w-[1800px] min-h-[100svh] md:min-h-[100vh] w-full h-full mx-auto relative flex justify-center md:justify-start items-end">
                 <div className="lamp w-[55px] sm:w-[70px] md:w-[80px] lg:w-[108px] absolute top-0 left-0 h-auto z-10">
                     <img className="w-full" src="/lamp.png" alt="" />
                 </div>
