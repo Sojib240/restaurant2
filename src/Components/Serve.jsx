@@ -53,7 +53,7 @@ const Serve = () => {
                                         />
                                     </div>
                                     <img
-                                        className="w-full[80%] group-hover:scale-110 duration-300 transition-all opacity-100 scale-100"
+                                        className="w-full[80%] group-hover:scale-110 duration-200 transition-all  scale-100"
                                         src={item.image}
                                         alt=""
                                     />

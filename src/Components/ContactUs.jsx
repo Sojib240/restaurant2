@@ -10,7 +10,7 @@ const ContactUs = () => {
             id: 1,
             logo: <TiLocation />,
             title: "our Office address",
-            desc: "Address: 148, Jln Bukit Bintang, Wilayah Persekutuan,",
+            desc: "148, Jln Bukit Bintang, Wilayah Persekutuan,",
             desc2: "55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
         },
         {
@@ -88,7 +88,13 @@ const ContactUs = () => {
                                         <h2 className="font-JosefinSans_bold text-[20px] uppercase pb-2 leading-none">
                                             {item.title}
                                         </h2>
-                                        <p className=" font-JosefinSans_Regular text-[18px] capitalize leading-5 w-full">
+                                        <p
+                                            className={` font-JosefinSans_Regular text-[18px] ${
+                                                item.id === 2
+                                                    ? "lowercase"
+                                                    : "capitalize"
+                                            } leading-5 w-full`}
+                                        >
                                             {item.desc}
                                             <br />
                                             {item.desc2}

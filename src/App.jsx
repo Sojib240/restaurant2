@@ -10,8 +10,8 @@ const App = () => {
     return (
         <div className="">
             <Navbar />
-            <HomePage popup={popup} setpopup={setpopup}  />
-            <Footer setpopup={setpopup}  />
+            <HomePage popup={popup} setpopup={setpopup} />
+            <Footer setpopup={setpopup} />
             <Loading />
         </div>
     );

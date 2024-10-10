@@ -2,13 +2,13 @@ import React from "react";
 
 const NumberOfItems = () => {
     const itemData = [
-        { title: "126", desc: "Dishes Available" },
-        { title: "42", desc: "Dessert & Drinks" },
-        { title: "1", desc: "Locations" },
-        { title: `${999}+`, desc: "Happy Customers" },
+        {id:1, title: "96", desc: "Dishes Available" },
+        {id:2, title: "26", desc: "Dessert & Drinks" },
+        {id:3, title: "2", desc: "Locations" },
+        {id:4, title: `${999}+`, desc: "Happy Customers" },
     ];
     return (
-        <div className="w-full pt-14 pb-10 px-5">
+        <div className="w-full pt-20 pb-10 px-5">
             <div className="max-w-[600px] md:max-w-[800px] lg:max-w-[1000px] mx-auto">
                 <div className="w-full max-w-[600px] mx-auto">
                     <h2 className="text-[35px] font-Hidayatullah text-center pb-6 capitalize">

@@ -76,7 +76,7 @@ const Footer = ({ setpopup }) => {
                                 <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
                                     +011-1119 2301
                                 </p>
-                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                                <p className="text-white font-JosefinSans_Regular text-[17px] lowercase">
                                     lazeez.restoran@gmail.com
                                 </p>
                             </div>

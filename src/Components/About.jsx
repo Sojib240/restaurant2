@@ -16,14 +16,7 @@ const About = () => {
       <div className="w-[55px] sm:w-[70px] md:w-[80px] lg:w-[80px] absolute top-3 lg:top-10 right-0 h-auto z-20 mr-[2%]">
         <img className="w-full" src="/lamp.png" alt="" />
       </div>
-      {/* <div className="w-full h-full absolute top-0 left-0 z-30 mr-10 opacity-10">
-                <img
-                    className="w-full h-full object-cover"
-                    src="/bg1.png"
-                    alt=""
-                />
-            </div> */}
-      <div className=" max-w-[1800px] mx-auto flex justify-between items-center gap-2 sm:gap-14 flex-wrap lg:flex-nowrap z-30">
+      <div className=" max-w-[1800px] mx-auto flex justify-between items-center gap-5 sm:gap-12 flex-wrap lg:flex-nowrap z-30">
         <div className="w-full lg:w-2/3">
           <h2 className="text-white text-[45px] font-Hidayatullah pb-6 text-center">
             About us

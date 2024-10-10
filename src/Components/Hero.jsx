@@ -9,7 +9,6 @@ const Hero = ({ setpopup }) => {
       <div className="bg w-[101%] absolute -bottom-[1px] left-0 rotate-180 z-50">
         <img className="w-full" src="/wave2.svg" alt="" />
       </div>
-      {/* pt-[280px] md:pt-[360px] pb-16 md:pb-28 lg:pb-36 */}
       <div className="sm:py-20 hero-max max-w-[1800px] min-h-[100svh] md:min-h-[100vh] w-full h-full mx-auto relative flex justify-center   items-center">
         <div className="lamp w-[55px] sm:w-[70px] md:w-[80px]  absolute top-0 right-0 h-auto z-10">
           <img className="w-full" src="/lamp.png" alt="" />
@@ -18,7 +17,7 @@ const Hero = ({ setpopup }) => {
           <div className="order-2 lg:order-1 text-left w-full lg:w-2/3 xl:w-1/2 flex flex-col justify-start items-left gap-3 md:gap-6 relative">
             <div className="flex flex-col items-center md:items-start gap-4">
               <h2 className="hero-text font-Love_Craft text-xl sm:text-2xl md:text-3xl lg:text-[36px] lg:leading-[60px] lg:text-left 2xl:text-[60px] 2xl:leading-[90px] text-white md:mb-3 text-center">
-                Indulge in the Authenticity of Arabic Cuisines, where {"Lazeez"}{" "}
+                Indulge in the Authenticity of Arabic Cuisines, where {"Lazeez"}
                 is your culinary Expression!
               </h2>
             </div>
