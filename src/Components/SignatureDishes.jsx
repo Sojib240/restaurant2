@@ -5,7 +5,7 @@ import "lightgallery/css/lightgallery.css";
 import "lightgallery/css/lg-zoom.css";
 import "lightgallery/css/lg-thumbnail.css";
 // plugins
-// import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgZoom from "lightgallery/plugins/zoom";
 
 const SignatureDishes = () => {
@@ -99,7 +99,7 @@ const SignatureDishes = () => {
                     <div className="w-full">
                         <LightGallery
                             zoomFromOrigin={false}
-                            plugins={[lgZoom]}
+                            plugins={[lgZoom, lgThumbnail]}
                             mode="fade"
                             className="w-full grid grid-cols-4 md:grid-cols-6 lg:grid-cols-5 gap-2 grid-rows-auto"
                         >
