@@ -2,9 +2,9 @@ import React from "react";
 
 const NumberOfItems = () => {
     const itemData = [
-        { title: "96", desc: "Dishes Available" },
-        { title: "26", desc: "Dessert & Drinks" },
-        { title: "2", desc: "Locations" },
+        { title: "126", desc: "Dishes Available" },
+        { title: "42", desc: "Dessert & Drinks" },
+        { title: "1", desc: "Locations" },
         { title: `${999}+`, desc: "Happy Customers" },
     ];
     return (

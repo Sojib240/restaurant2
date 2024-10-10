@@ -57,7 +57,7 @@ const Reviews = () => {
                 <div className="w-full md:w-1/2">
                     <img
                         className="max-w-[1/2] mx-auto"
-                        src="/review.png"
+                        src="/desserts.png"
                         alt=""
                     />
                 </div>
