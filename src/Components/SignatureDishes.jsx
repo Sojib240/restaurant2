@@ -1,12 +1,15 @@
-import React from "react";
-import LightGallery from "lightgallery/react";
+// plugins
+import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgZoom from "lightgallery/plugins/zoom";
 // import styles
 import "lightgallery/css/lightgallery.css";
 import "lightgallery/css/lg-zoom.css";
 import "lightgallery/css/lg-thumbnail.css";
-// plugins
-import lgThumbnail from "lightgallery/plugins/thumbnail";
-import lgZoom from "lightgallery/plugins/zoom";
+
+import LightGallery from "lightgallery/react";
+
+import React from "react";
+
 
 const SignatureDishes = () => {
     const signatureData = [
@@ -101,7 +104,7 @@ const SignatureDishes = () => {
                             zoomFromOrigin={false}
                             plugins={[lgZoom, lgThumbnail]}
                             mode="fade"
-                            className="w-full grid grid-cols-4 md:grid-cols-6 lg:grid-cols-5 gap-2 grid-rows-auto"
+                            className="lightgallery w-full grid grid-cols-4 md:grid-cols-6 lg:grid-cols-5 gap-2 grid-rows-auto"
                         >
                             {signatureData.map((item) => {
                                 return (
