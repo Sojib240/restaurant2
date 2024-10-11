@@ -2,6 +2,7 @@ import React from "react";
 
 const Serve = () => {
     const cardData = [
+        
         {
             id: 1,
             image: "/sm_mix_appetizer.jpg",

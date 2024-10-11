@@ -7,9 +7,9 @@ import { GiPartyPopper } from "react-icons/gi";
 const Facilities = ({ setpopup }) => {
     const facilitiesData = [
         { id: 1, icon: <MdDeliveryDining />, title: "Home Delivery" },
-        { id: 2, icon: <FaShoppingBag />, title: "Take Away" },
-        { id: 3, icon: <FaCreditCard />, title: "Ease of Payment" },
-        { id: 4, icon: <GiPartyPopper />, title: "Party orders" },
+        { id: 2, icon: <FaShoppingBag />, title: "outdoor seating" },
+        { id: 3, icon: <FaCreditCard />, title: "prayer facility" },
+        { id: 4, icon: <GiPartyPopper />, title: " event hosting" },
     ];
 
     const handleClick = (index) => {
@@ -18,7 +18,10 @@ const Facilities = ({ setpopup }) => {
         }
     };
     return (
-        <div id="facilities" className=" Facilities py-10 sm:py-28 px-5 w-full relative">
+        <div
+            id="facilities"
+            className=" Facilities py-10 sm:py-28 px-5 w-full relative"
+        >
             <div className="w-full">
                 <h2 className="text-[35px] font-Hidayatullah text-center pb-14 capitalize">
                     Facilities
@@ -36,7 +39,7 @@ const Facilities = ({ setpopup }) => {
                                 >
                                     {item.icon}
                                 </span>
-                                <h2 className="text-[17px] font-JosefinSans_semibold text-center sm:text-[25px]">
+                                <h2 className="text-[17px] font-JosefinSans_semibold text-center sm:text-[25px] capitalize">
                                     {item.title}
                                 </h2>
                             </div>

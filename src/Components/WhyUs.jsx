@@ -6,10 +6,12 @@ import { PiMosqueFill } from "react-icons/pi";
 
 const WhyUs = () => {
     const whyUsData = [
-        { id: 1, image: <SiCodefresh />, title: "fresh food" },
-        { id: 2, image: <FaShoppingBasket />, title: "easy to order" },
-        { id: 3, image: <PiBowlFoodFill />, title: "appetizing taste" },
-        { id: 4, image: <PiMosqueFill />, title: "authentic arabic cuisine" },
+        { id: 1, image: <SiCodefresh />, title: "Fresh ingredients" },
+        { id: 2, image: <FaShoppingBasket />, title: "Halal meat" },
+        { id: 3, image: <PiBowlFoodFill />, title: "Family environment" },
+        { id: 4, image: <PiMosqueFill />, title: "Multi arabic cuisine " },
+
+        ,
     ];
     return (
         <div id="why_us" className="w-full pt-10 pb-10 px-5">
