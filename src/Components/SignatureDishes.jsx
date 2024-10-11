@@ -6,7 +6,7 @@ const SignatureDishes = () => {
     const signatureData = [
         {
             id: 1,
-            image: "/Lamb-Tagine-2.jpg",
+            image: "/Lamb-Tagine.jpg",
             caption: "Lamb Tagine",
             styles: "col-span-2 md:col-span-2 lg:col-span-2",
         },
@@ -45,7 +45,7 @@ const SignatureDishes = () => {
         },
         {
             id: 7,
-            image: "/OH5A4283.jpg",
+            image: "/avocado-milkshake.jpg",
             caption: "Avocado Milkshake",
             styles: "col-span-2 md:col-span-2 lg:col-span-1",
             // ====================
@@ -100,7 +100,7 @@ const SignatureDishes = () => {
                                 return (
                                     <div
                                         key={item.id}
-                                        className={`${item.styles} h-52 w-full md:h-64 lg:h-80 rounded-3xl overflow-hidden border`}
+                                        className={`${item.styles} h-52 w-full md:h-64 lg:h-80 rounded-3xl overflow-hidden border cursor-pointer`}
                                     >
                                         <Item
                                             className="w-full h-full object-cover"

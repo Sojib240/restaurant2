@@ -1,15 +1,15 @@
 import React from "react";
 import { MdDeliveryDining } from "react-icons/md";
-import { FaShoppingBag } from "react-icons/fa";
+import { MdTableRestaurant } from "react-icons/md";
 import { FaCreditCard } from "react-icons/fa6";
 import { GiPartyPopper } from "react-icons/gi";
 
 const Facilities = ({ setpopup }) => {
     const facilitiesData = [
-        { id: 1, icon: <MdDeliveryDining />, title: "Home Delivery" },
-        { id: 2, icon: <FaShoppingBag />, title: "outdoor seating" },
-        { id: 3, icon: <FaCreditCard />, title: "prayer facility" },
-        { id: 4, icon: <GiPartyPopper />, title: " event hosting" },
+        { id: 1, icon: "/express-delivery.png", title: "Home Delivery" },
+        { id: 2, icon: "/table.png", title: "outdoor seating" },
+        { id: 3, icon: "/pray.png", title: "prayer facility" },
+        { id: 4, icon: "/balloon.png", title: " event hosting" },
     ];
 
     const handleClick = (index) => {
@@ -33,12 +33,12 @@ const Facilities = ({ setpopup }) => {
                                 key={item.id}
                                 className="flex flex-col items-center justify-center p-5 gap-1 w-1/2 lg:w-1/4"
                             >
-                                <span
+                                <img
                                     onClick={() => handleClick(index)}
                                     className="p-7 rounded-2xl bg-greenShade-100 text-5xl text-white mb-4 duration-150 transition-all hover:bg-orangeShade-300 cursor-pointer"
-                                >
-                                    {item.icon}
-                                </span>
+                                    src={item.icon}
+                                    alt=""
+                                />
                                 <h2 className="text-[17px] font-JosefinSans_semibold text-center sm:text-[25px] capitalize">
                                     {item.title}
                                 </h2>

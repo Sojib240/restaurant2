@@ -12,8 +12,6 @@ import Reviews from "../Components/Reviews";
 import PopUp from "../Components/PopUp";
 import NumberOfItems from "../Components/NumberOfItems";
 
-// const SignatureDishes = lazy(() => import("../Components/SignatureDishes"));
-
 const HomePage = ({ popup, setpopup }) => {
     return (
         <div className="w-full h-full">
@@ -21,9 +19,7 @@ const HomePage = ({ popup, setpopup }) => {
             <Serve />
             <Facilities setpopup={setpopup} />
             <About />
-            {/* <Suspense fallback={<div>Loading...</div>}> */}
             <SignatureDishes />
-            {/* </Suspense> */}
             <NumberOfItems />
             <Reviews />
             <WhyUs />

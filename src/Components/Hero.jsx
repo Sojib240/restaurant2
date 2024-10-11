@@ -6,13 +6,23 @@ const Hero = ({ setpopup }) => {
             id="home"
             className="heroBg hero hero w-full px-1 sm:px-4 bg-greenShade-300 relative z-50 overflow-hidden h-full"
         >
+            <div className="bgRotateX w-[101%] absolute -top-[1px] left-0 z-50">
+                <img className="w-full" src="/wave.svg" alt="" />
+            </div>
             <div className="bg w-[101%] absolute -bottom-[1px] left-0 rotate-180 z-50">
                 <img className="w-full" src="/wave2.svg" alt="" />
             </div>
             <div className="sm:py-20 hero-max max-w-[1800px] min-h-[100svh] md:min-h-[100vh] w-full h-full mx-auto relative flex justify-center   items-center">
-                <div className="lamp w-[55px] sm:w-[70px] md:w-[80px]  absolute top-0 right-0 h-auto z-10">
-                    <img className="w-full" src="/lamp.png" alt="" />
+                {/*  */}
+                <div className="absolute top-0 right-0 h-auto z-10 flex gap-4 md:gap-6 lg:gap-8">
+                    <div className="lamp w-[45px] sm:w-[57px] md:w-[67px] ">
+                        <img className="w-full" src="/lamp.png" alt="" />
+                    </div>
+                    <div className="lamp w-[60px] sm:w-[80px] md:w-[90px] ">
+                        <img className="w-full" src="/lamp.png" alt="" />
+                    </div>
                 </div>
+                {/*  */}
                 <div className=" flex flex-wrap gap-6 lg:gap-0 items-center z-40">
                     <div className="order-2 lg:order-1 text-left w-full lg:w-2/3 xl:w-1/2 flex flex-col justify-start items-left gap-3 md:gap-6 relative">
                         <div className="flex flex-col items-center md:items-start gap-4">

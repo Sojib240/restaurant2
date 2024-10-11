@@ -27,7 +27,7 @@ const Navbar = () => {
                     className={`main-navbar w-full absolute top-0 left-0 z-[99] h-[70px] mt-3 flex items-center justify-center px-5`}
                 >
                     <div className="max-w-[1820px] mx-auto w-full h-full">
-                        <div className="flex justify-between items-center w-full md:w-auto h-full">
+                        <div className="flex justify-between items-center 2xl:items-end w-full md:w-auto h-full">
                             <div className="logo w-32 sm:w-36 lg:w-36 pb-2">
                                 <img
                                     className="w-full"
@@ -59,7 +59,7 @@ const Navbar = () => {
                                 <a
                                     href="#home"
                                     to="#home"
-                                    className="link relative font-JosefinSans_semibold capitalize text-white text-lg"
+                                    className="link relative font-JosefinSans_semibold capitalize text-white text-lg mix-blend-difference"
                                 >
                                     Home
                                 </a>

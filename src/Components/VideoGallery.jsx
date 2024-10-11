@@ -14,23 +14,23 @@ const VideoGallery = () => {
     const videoGalleryData = [
         {
             id: 1,
-            video: "https://www.tiktok.com/@zackzainefer/video/7344343247210302738",
+            video: "https://www.youtube.com",
         },
         {
             id: 2,
-            video: "https://www.youtube-nocookie.com/embed/W_vTE--1Ec0?si=jSPxZO_KjTmp7Txy&amp;start=1",
+            video: "https://www.youtube.com",
         },
         {
             id: 3,
-            video: "https://www.youtube-nocookie.com/embed/W_vTE--1Ec0?si=jSPxZO_KjTmp7Txy&amp;start=1",
+            video: "https://www.youtube.com",
         },
         {
             id: 4,
-            video: "https://www.youtube-nocookie.com/embed/W_vTE--1Ec0?si=jSPxZO_KjTmp7Txy&amp;start=1",
+            video: "https://www.youtube.com",
         },
         {
             id: 5,
-            video: "https://www.youtube-nocookie.com/embed/W_vTE--1Ec0?si=jSPxZO_KjTmp7Txy&amp;start=1",
+            video: "https://www.youtube.com",
         },
     ];
 
@@ -70,11 +70,6 @@ const VideoGallery = () => {
                                 >
                                     <div className="flex flex-col justify-center items-center text-center h-[380px]">
                                         <iframe
-                                            title="YouTube video player"
-                                            frameBorder="0"
-                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                            referrerPolicy="strict-origin-when-cross-origin"
-                                            allowFullScreen
                                             className="w-full h-full rounded-md"
                                             src={item.video}
                                         ></iframe>

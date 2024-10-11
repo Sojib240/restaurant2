@@ -39,7 +39,6 @@ const ContactUs = () => {
                         className="w-full h-[350px] md:h-[500px]"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3983.7995413782855!2d101.7119999!3d3.14753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cc3720104618e9%3A0x61ffb5fdb1844d68!2sLazeez%20Arabic%20Restaurant%20and%20Grill!5e0!3m2!1sen!2sbd!4v1727791828294!5m2!1sen!2sbd"
                         loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
                     ></iframe>
                 </div>
                 <div className="flex gap-10 flex-wrap lg:flex-nowrap">

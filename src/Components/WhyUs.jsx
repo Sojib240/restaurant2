@@ -6,10 +6,10 @@ import { PiMosqueFill } from "react-icons/pi";
 
 const WhyUs = () => {
     const whyUsData = [
-        { id: 1, image: <SiCodefresh />, title: "Fresh ingredients" },
-        { id: 2, image: <FaShoppingBasket />, title: "Halal meat" },
-        { id: 3, image: <PiBowlFoodFill />, title: "Family environment" },
-        { id: 4, image: <PiMosqueFill />, title: "Multi arabic cuisine " },
+        { id: 1, image: '/leaf.png', title: "Fresh ingredients" },
+        { id: 2, image: "/ham.png", title: "Halal meat" },
+        { id: 3, image: "/family.png", title: "Family environment" },
+        { id: 4, image: '/culinary.png', title: "Multi arabic cuisine " },
 
         ,
     ];
@@ -23,13 +23,9 @@ const WhyUs = () => {
                     return (
                         <div
                             key={item.id}
-                            className={`flex flex-col items-center justify-center p-5 gap-1 w-1/2 lg:w-1/4 ${
-                                item.id == 0 && "border-l-[1px]"
-                            }`}
+                            className="flex flex-col items-center justify-center p-5 gap-1 w-1/2 lg:w-1/4"
                         >
-                            <span className="text-6xl text-orangeShade-300 duration-150 transition-all hover:text-greenShade-300">
-                                {item.image}
-                            </span>
+                            <img src={item.image} alt="" />
                             <h2 className="text-[17px] font-JosefinSans_semibold text-center sm:text-[25px]">
                                 {item.title}
                             </h2>

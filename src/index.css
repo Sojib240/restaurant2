@@ -122,6 +122,9 @@ span.swiper-pagination-bullet {
         opacity: 1;
     }
 }
+.bgRotateX{
+    transform: rotateX(180deg);
+}
 
 /*  */
 /* .lg-sub-html {
