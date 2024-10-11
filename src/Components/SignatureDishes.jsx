@@ -1,12 +1,6 @@
 import React, { useEffect } from "react";
-import LightGallery from "lightgallery/react";
-// import styles
-import "lightgallery/css/lightgallery.css";
-import "lightgallery/css/lg-zoom.css";
-import "lightgallery/css/lg-thumbnail.css";
-// plugins
-import lgThumbnail from "lightgallery/plugins/thumbnail";
-import lgZoom from "lightgallery/plugins/zoom";
+import "photoswipe/dist/photoswipe.css";
+import { Gallery, Item } from "react-photoswipe-gallery";
 
 const SignatureDishes = () => {
     const signatureData = [
@@ -16,46 +10,46 @@ const SignatureDishes = () => {
             caption: "Lamb Tagine",
             styles: "col-span-2 md:col-span-2 lg:col-span-2",
         },
-    //     {
-    //         id: 2,
-    //         image: "/lamb_shawarma.jpg",
-    //         caption: "Lamb Shawarma",
-    //         styles: "col-span-2 md:col-span-2 lg:col-span-2",
-    // // ===========++++++++++++++++
-    //     },
+        {
+            id: 2,
+            image: "/lamb_shawarma.jpg",
+            caption: "Lamb Shawarma",
+            styles: "col-span-2 md:col-span-2 lg:col-span-2",
+            // ===========++++++++++++++++
+        },
         {
             id: 3,
             image: "/LargeMixedGrills.jpg",
             caption: "Large Mixed Grills",
             styles: "col-span-2 md:col-span-2 lg:col-span-1",
         },
-    //     {
-    //         id: 4,
-    //         image: "/CupKunafa_chocolate1.jpg", 
-    //         caption: "CupKunafa Chocolate",
-    //         styles: "col-span-2 md:col-span-2 lg:col-span-3",
-    // // ===========++++++++++++
-    //     },
-    //     {
-    //         id: 5,
-    //         image: "/Sandwich-shish-kebab.jpg",
-    //         caption: "Sandwich Shish Kebab",
-    //         styles: "col-span-2 md:col-span-2 lg:col-span-2",
-    // // =============
-    //     },
+        {
+            id: 4,
+            image: "/CupKunafa_chocolate1.jpg",
+            caption: "CupKunafa Chocolate",
+            styles: "col-span-2 md:col-span-2 lg:col-span-3",
+            // ===========++++++++++++
+        },
+        {
+            id: 5,
+            image: "/Sandwich-shish-kebab.jpg",
+            caption: "Sandwich Shish Kebab",
+            styles: "col-span-2 md:col-span-2 lg:col-span-2",
+            // =============
+        },
         {
             id: 6,
             image: "/Ghormah_sabsy.jpg",
             caption: "Ghormah Sabsy",
             styles: "col-span-2 md:col-span-2 lg:col-span-1",
         },
-    //     {
-    //         id: 7,
-    //         image: "/OH5A4283.jpg",
-    //         caption: "OH5A4283",
-    //         styles: "col-span-2 md:col-span-2 lg:col-span-1",
-    // // ====================
-    //     },
+        {
+            id: 7,
+            image: "/OH5A4283.jpg",
+            caption: "OH5A4283",
+            styles: "col-span-2 md:col-span-2 lg:col-span-1",
+            // ====================
+        },
         {
             id: 8,
             image: "/sambussa.jpg",
@@ -100,28 +94,36 @@ const SignatureDishes = () => {
                     Our Signature Dishes
                 </h2>
                 <div className="main h-full flex w-full">
-                    <div className="w-full">
-                        <LightGallery
-                            zoomFromOrigin={false}
-                            plugins={[lgZoom, lgThumbnail]}
-                            mode="fade"
-                            className="lightgallery w-full grid grid-cols-4 md:grid-cols-6 lg:grid-cols-5 gap-2 grid-rows-auto"
-                        >
+                    <div className="w-full grid grid-cols-4 md:grid-cols-6 lg:grid-cols-5 gap-2 grid-rows-auto">
+                        <Gallery withCaption>
                             {signatureData.map((item) => {
                                 return (
-                                    <a
-                                        className={`${item.styles} h-52 w-full md:h-64 lg:h-80 rounded-3xl overflow-hidden border group`}
-                                        href={item.image}
+                                    <div
+                                        key={item.id}
+                                        className={`${item.styles} h-52 w-full md:h-64 lg:h-80 rounded-3xl overflow-hidden border`}
                                     >
-                                        <img
-                                            className="object-cover w-full h-full"
-                                            alt={item.caption}
-                                            src={item.image}
-                                        />
-                                    </a>
+                                        <Item
+                                            className="w-full h-full object-cover"
+                                            original={item.image}
+                                            thumbnail={item.image}
+                                            width="1200"
+                                            height="800"
+                                            caption={`${item.caption}`}
+                                        >
+                                            {({ ref, open }) => (
+                                                <img
+                                                    className="w-full h-full object-cover"
+                                                    ref={ref}
+                                                    onClick={open}
+                                                    src={item.image}
+                                                />
+                                            )}
+                                        </Item>
+                                    </div>
                                 );
                             })}
-                        </LightGallery>
+                            {/*  */}
+                        </Gallery>
                     </div>
                 </div>
             </div>

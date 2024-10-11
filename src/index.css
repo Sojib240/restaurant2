@@ -104,11 +104,6 @@ span.swiper-pagination-bullet {
     background: rgba(0, 0, 0, 0.8);
 }
 
-._DDceb._1qbJe.imageModal:hover,
-._1lgEi._1qbJe.imageModal:hover {
-    color: #ffffff;
-}
-
 .load {
     animation: loader 2s 0.2s 2 backwards;
     animation: name duration timing-function delay iteration-count direction fill-mode;
@@ -129,10 +124,20 @@ span.swiper-pagination-bullet {
 }
 
 /*  */
-.lg-sub-html {
+/* .lg-sub-html {
     color: #eee;
     font-size: 20px;
 }
+
+span.lazy-load-image-background.blur.lazy-load-image-loaded {
+    height: 100%;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+span.lazy-load-image-background.blur.lazy-load-image-loaded:hover {
+    scale: 1.1;
+} */
 
 @media (min-width: 24px) {
     .lg-react-element {
@@ -158,12 +163,7 @@ span.swiper-pagination-bullet {
     }
 }
 
-span.lazy-load-image-background.blur.lazy-load-image-loaded {
-    height: 100%;
-    width: 100%;
-    transition: 0.2s ease-in-out;
-}
 
-span.lazy-load-image-background.blur.lazy-load-image-loaded:hover {
-    scale: 1.1;
+.pswp__default-caption.pswp__hide-on-close {
+    font-size: 22px !important;
 }

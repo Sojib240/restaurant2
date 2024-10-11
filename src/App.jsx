@@ -12,7 +12,7 @@ const App = () => {
             <Navbar />
             <HomePage popup={popup} setpopup={setpopup} />
             <Footer setpopup={setpopup} />
-            {/* <Loading /> */}
+            <Loading />
         </div>
     );
 };
