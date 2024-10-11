@@ -17,9 +17,8 @@ const Hero = ({ setpopup }) => {
                     <div className="order-2 lg:order-1 text-left w-full lg:w-2/3 xl:w-1/2 flex flex-col justify-start items-left gap-3 md:gap-6 relative">
                         <div className="flex flex-col items-center md:items-start gap-4">
                             <h2 className="hero-text font-Love_Craft text-xl sm:text-2xl md:text-3xl lg:text-[36px] lg:leading-[60px] lg:text-left 2xl:text-[60px] 2xl:leading-[90px] text-white md:mb-3 text-center">
-                                Indulge in the Authenticity of Arabic Cuisines,
-                                where {"Lazeez"}
-                                is your culinary Expression!
+                                the best of arabic cuisine awaits you to fulfil
+                                your cravings
                             </h2>
                         </div>
                         <div className="flex gap-2 md:gap-3 justify-center lg:justify-start flex-wrap">
