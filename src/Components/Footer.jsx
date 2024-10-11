@@ -44,9 +44,12 @@ const Footer = ({ setpopup }) => {
                                 HOME
                             </h2>
                             <div className="flex flex-col">
-                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                                <a
+                                    href="https://wa.me/+8801627025159?text=Hello!" target="blank"
+                                    className="text-white font-JosefinSans_Regular text-[17px] capitalize"
+                                >
                                     book a table
-                                </p>
+                                </a>
                                 <a
                                     href="#facilities"
                                     className="text-white font-JosefinSans_Regular text-[17px] capitalize"
@@ -73,7 +76,7 @@ const Footer = ({ setpopup }) => {
                                     55100 Kuala Lumpur, Wilayah Persekutuan
                                     Kuala Lumpur
                                 </p>
-                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize">
+                                <p className="text-white font-JosefinSans_Regular text-[17px] capitalize py-1">
                                     +011-1119 2301
                                 </p>
                                 <p className="text-white font-JosefinSans_Regular text-[17px] lowercase">

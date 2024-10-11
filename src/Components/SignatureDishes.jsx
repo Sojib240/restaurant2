@@ -1,15 +1,12 @@
-// plugins
-import lgThumbnail from "lightgallery/plugins/thumbnail";
-import lgZoom from "lightgallery/plugins/zoom";
+import React, { useEffect } from "react";
+import LightGallery from "lightgallery/react";
 // import styles
 import "lightgallery/css/lightgallery.css";
 import "lightgallery/css/lg-zoom.css";
 import "lightgallery/css/lg-thumbnail.css";
-
-import LightGallery from "lightgallery/react";
-
-import React from "react";
-
+// plugins
+import lgThumbnail from "lightgallery/plugins/thumbnail";
+import lgZoom from "lightgallery/plugins/zoom";
 
 const SignatureDishes = () => {
     const signatureData = [
@@ -19,63 +16,67 @@ const SignatureDishes = () => {
             caption: "Lamb Tagine",
             styles: "col-span-2 md:col-span-2 lg:col-span-2",
         },
-        {
-            id: 2,
-            image: "/lamb_shawarma.JPG",
-            caption: "Lamb Shawarma",
-            styles: "col-span-2 md:col-span-2 lg:col-span-2",
-        },
+    //     {
+    //         id: 2,
+    //         image: "/lamb_shawarma.jpg",
+    //         caption: "Lamb Shawarma",
+    //         styles: "col-span-2 md:col-span-2 lg:col-span-2",
+    // // ===========++++++++++++++++
+    //     },
         {
             id: 3,
-            image: "/LargeMixedGrills.JPG",
+            image: "/LargeMixedGrills.jpg",
             caption: "Large Mixed Grills",
             styles: "col-span-2 md:col-span-2 lg:col-span-1",
         },
-        {
-            id: 4,
-            image: "/CupKunafa_chocolate1.jpg",
-            caption: "CupKunafa Chocolate",
-            styles: "col-span-2 md:col-span-2 lg:col-span-3",
-        },
-        {
-            id: 5,
-            image: "/Sandwich-shish-kebab.JPG",
-            caption: "Sandwich Shish Kebab",
-            styles: "col-span-2 md:col-span-2 lg:col-span-2",
-        },
+    //     {
+    //         id: 4,
+    //         image: "/CupKunafa_chocolate1.jpg", 
+    //         caption: "CupKunafa Chocolate",
+    //         styles: "col-span-2 md:col-span-2 lg:col-span-3",
+    // // ===========++++++++++++
+    //     },
+    //     {
+    //         id: 5,
+    //         image: "/Sandwich-shish-kebab.jpg",
+    //         caption: "Sandwich Shish Kebab",
+    //         styles: "col-span-2 md:col-span-2 lg:col-span-2",
+    // // =============
+    //     },
         {
             id: 6,
-            image: "/Ghormah_sabsy.JPG",
+            image: "/Ghormah_sabsy.jpg",
             caption: "Ghormah Sabsy",
             styles: "col-span-2 md:col-span-2 lg:col-span-1",
         },
-        {
-            id: 7,
-            image: "/OH5A4283.JPG",
-            caption: "OH5A4283",
-            styles: "col-span-2 md:col-span-2 lg:col-span-1",
-        },
+    //     {
+    //         id: 7,
+    //         image: "/OH5A4283.jpg",
+    //         caption: "OH5A4283",
+    //         styles: "col-span-2 md:col-span-2 lg:col-span-1",
+    // // ====================
+    //     },
         {
             id: 8,
-            image: "/sambussa.JPG",
+            image: "/sambussa.jpg",
             caption: "Sambussa",
             styles: "col-span-2 md:col-span-2 lg:col-span-2",
         },
         {
             id: 9,
-            image: "/MandyLamb_.JPG",
+            image: "/MandyLamb_.jpg",
             caption: "Mandy Lamb",
             styles: "col-span-2 md:col-span-2 lg:col-span-1",
         },
         {
             id: 10,
-            image: "/HaneedLamb.JPG",
+            image: "/HaneedLamb.jpg",
             caption: "Haneed Lamb",
             styles: "col-span-2 md:col-span-2 lg:col-span-2",
         },
         {
             id: 11,
-            image: "/sm_mix_appetizer.JPG",
+            image: "/sm_mix_appetizer.jpg",
             caption: "Sm Mix Appetizer",
             styles: "col-span-2 md:col-span-2 lg:col-span-1",
         },
@@ -87,7 +88,7 @@ const SignatureDishes = () => {
         },
         {
             id: 13,
-            image: "/ShishTawook.JPG",
+            image: "/ShishTawook.jpg",
             caption: "Shish Tawook",
             styles: "col-span-2 md:col-span-2 lg:col-span-1",
         },
@@ -113,7 +114,7 @@ const SignatureDishes = () => {
                                         href={item.image}
                                     >
                                         <img
-                                            className="object-cover w-full h-full group-hover:scale-110 duration-200 transition-all  scale-100"
+                                            className="object-cover w-full h-full"
                                             alt={item.caption}
                                             src={item.image}
                                         />

@@ -4,14 +4,14 @@ const Serve = () => {
     const cardData = [
         {
             id: 1,
-            image: "/sm_mix_appetizer.JPG",
+            image: "/sm_mix_appetizer.jpg",
             // image2: "/item2.webp",
             title: "starters",
             desc: "enjoy variety of lip smacking starters made by our skilled and expert chefs",
         },
         {
             id: 2,
-            image: "/HaneedLamb.JPG",
+            image: "/HaneedLamb.jpg",
             // image2: "/item3.webp",
             title: "main course",
             desc: "enjoy a wide range of delectable dishes cooked to perfection by our chefs",
@@ -25,7 +25,7 @@ const Serve = () => {
         },
         {
             id: 4,
-            image: "/OH5A4283.JPG",
+            image: "/OH5A4283.jpg",
             // image2: "/item1.webp",
             title: "drinks",
             desc: "we serve a wide range of non-alcoholic drinks to satiate our patrons",

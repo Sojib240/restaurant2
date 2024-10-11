@@ -157,3 +157,13 @@ span.swiper-pagination-bullet {
         grid-gap: 8px;
     }
 }
+
+span.lazy-load-image-background.blur.lazy-load-image-loaded {
+    height: 100%;
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+span.lazy-load-image-background.blur.lazy-load-image-loaded:hover {
+    scale: 1.1;
+}
