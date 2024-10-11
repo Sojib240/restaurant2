@@ -46,7 +46,7 @@ const SignatureDishes = () => {
         {
             id: 7,
             image: "/OH5A4283.jpg",
-            caption: "OH5A4283",
+            caption: "Avocado Milkshake",
             styles: "col-span-2 md:col-span-2 lg:col-span-1",
             // ====================
         },
