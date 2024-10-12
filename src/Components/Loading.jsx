@@ -10,7 +10,6 @@ const Loading = ({ loading, setloading }) => {
                 transition={{ delay: 4, duration: 0.4, ease: "linear" }}
                 className="load min-h-[100svh] md:min-h-[100vh] w-full h-full fixed top-0 left-0 bg-white z-[9999] flex items-center justify-center"
             >
-                
                 <img src="/logo.png" alt="logo" className="w-1/4" />
             </motion.div>
             <motion.div

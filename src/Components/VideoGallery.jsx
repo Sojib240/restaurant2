@@ -14,23 +14,23 @@ const VideoGallery = () => {
     const videoGalleryData = [
         {
             id: 1,
-            video: "https://www.youtube.com",
+            video: "https://www.youtube.com/embed/3Kjf7Ducp2M?si=k2qHqPOyzmEPbAbB",
         },
         {
             id: 2,
-            video: "https://www.youtube.com",
+            video: "https://www.youtube.com/embed/3Kjf7Ducp2M?si=k2qHqPOyzmEPbAbB",
         },
         {
             id: 3,
-            video: "https://www.youtube.com",
+            video: "https://www.youtube.com/embed/3Kjf7Ducp2M?si=k2qHqPOyzmEPbAbB",
         },
         {
             id: 4,
-            video: "https://www.youtube.com",
+            video: "https://www.youtube.com/embed/3Kjf7Ducp2M?si=k2qHqPOyzmEPbAbB",
         },
         {
             id: 5,
-            video: "https://www.youtube.com",
+            video: "https://www.youtube.com/embed/3Kjf7Ducp2M?si=k2qHqPOyzmEPbAbB",
         },
     ];
 

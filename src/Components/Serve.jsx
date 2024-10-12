@@ -2,7 +2,6 @@ import React from "react";
 
 const Serve = () => {
     const cardData = [
-        
         {
             id: 1,
             image: "/sm_mix_appetizer.jpg",
@@ -54,15 +53,10 @@ const Serve = () => {
                                         />
                                     </div>
                                     <img
-                                        className="w-full[80%] group-hover:scale-110 duration-200 transition-all  scale-100"
+                                        className="w-full[80%] group-hover:scale-110 duration-150 transition-all  scale-100"
                                         src={item.image}
                                         alt=""
                                     />
-                                    {/* <img
-                                        className="opacity-0 scale-50 duration-500 transition-all w-full[80%] absolute top-0 left-0 bottom-0 right-0 group-hover:scale-100 group-hover:opacity-100 group-hover:rotate-6"
-                                        // src={item.image2}
-                                        alt=""
-                                    /> */}
                                 </div>
                                 <h2 className="text-center text-[25px] mt-6 font-JosefinSans_semibold capitalize">
                                     {item.title}

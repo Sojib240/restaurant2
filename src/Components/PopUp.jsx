@@ -11,7 +11,7 @@ const PopUp = ({ popup, setpopup }) => {
             <div className="popup-card w-[500px] rounded-[30px] bg-white p-5 relative">
                 <span
                     onClick={() => setpopup(false)}
-                    className="w-[30px] h-[30px] bg-greenShade-300 rounded-full flex justify-center items-center text-white absolute top-0 right-0 m-5 cursor-pointer"
+                    className="w-[30px] h-[30px] bg-greenShade-300 rounded-full flex justify-center items-center text-white absolute top-0 right-0 m-5 cursor-pointer duration-100 transition-all hover:bg-orangeShade-300"
                 >
                     <MdClose />
                 </span>
