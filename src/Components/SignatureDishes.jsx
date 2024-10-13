@@ -90,7 +90,7 @@ const SignatureDishes = () => {
     return (
         <div id="signature_dishes" className="w-full px-5 pt-10 min-h-screen">
             <div className="h-full max-w-[1300px] mx-auto">
-                <h2 className="text-[35px] font-Hidayatullah text-center pb-14 capitalize">
+                <h2 className="text-[35px] font-Hidayatullah text-greenShade-300 text-center pb-14 capitalize">
                     Our Signature Dishes
                 </h2>
                 <div className="main h-full flex w-full">
@@ -103,7 +103,7 @@ const SignatureDishes = () => {
                                         className={`${item.styles} h-52 w-full md:h-64 lg:h-80 rounded-3xl overflow-hidden border cursor-pointer`}
                                     >
                                         <Item
-                                            className="w-full h-full object-cover"
+                                            className="w-full object-cover mix-blend-difference"
                                             original={item.image}
                                             thumbnail={item.image}
                                             width="1200"
